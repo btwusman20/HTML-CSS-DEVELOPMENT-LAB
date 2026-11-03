@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9 - Tables with Headers and Footers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lab 9: Tables with Headers and Footers</h1>
+
+        <div class="table-card">
+            <h2>Exercise 1: Basic Table (<a href="marks.html">marks.html</a>)</h2>
+            <table>
+                <caption>Marks of Class A</caption>
+                <thead>
+                    <tr><th>Name</th><th>Maths</th><th>Science</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Asha</td><td>78</td><td>85</td></tr>
+                    <tr><td>Rohan</td><td>64</td><td>70</td></tr>
+                    <tr><td>Neha</td><td>91</td><td>88</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-card">
+            <h2>Exercise 2: Table with Class Average Footer (<a href="marks-average.html">marks-average.html</a>)</h2>
+            <table>
+                <caption>Marks of Class A</caption>
+                <thead>
+                    <tr><th>Name</th><th>Maths</th><th>Science</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Asha</td><td>78</td><td>85</td></tr>
+                    <tr><td>Rohan</td><td>64</td><td>70</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr><th>Class average</th><td>71</td><td>77.5</td></tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="table-card">
+            <h2>Exercise 3: Accessible Table (<a href="marks-accessible.html">marks-accessible.html</a>)</h2>
+            <table>
+                <caption>Marks of Class A</caption>
+                <thead>
+                    <tr><th scope="col">Name</th><th scope="col">Maths</th><th scope="col">Science</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th scope="row">Asha</th><td>78</td><td>85</td></tr>
+                    <tr><th scope="row">Rohan</th><td>64</td><td>70</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

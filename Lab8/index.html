@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8 - Sign-Up Forms and Choices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lab 8: Sign-Up Forms and Choices</h1>
+
+        <div class="form-card">
+            <h2>Exercise 1: Standard Sign-Up (<a href="signup.html">signup.html</a>)</h2>
+            <form method="post" action="thanks.html">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" class="form-control">
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-card">
+            <h2>Exercise 2: Gender &amp; Course Selection (<a href="choices.html">choices.html</a>)</h2>
+            <form>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="gender" value="Female"> Female</label>
+                        <label><input type="radio" name="gender" value="Male"> Male</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="course">Course:</label>
+                    <select id="course" name="course" class="form-control">
+                        <option value="BCA">BCA</option>
+                        <option value="B.Tech">B.Tech</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-card">
+            <h2>Exercise 3: Required Validation Form (<a href="signup-required.html">signup-required.html</a>)</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-req">Email:</label>
+                    <input type="email" id="email-req" name="email" class="form-control" required>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Lab 4 Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f7f9fc;
+    color: #333;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #1d3557;
+    margin-bottom: 24px;
+}
+
+.exercise-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.exercise-section h2 {
+    color: #457b9d;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.exercise-section h2 a {
+    color: #1d3557;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Question 1 Layout */
+.header {
+    background: #dceaf7;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.main {
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 10px;
+    border: 1px dashed #bbb;
+    border-radius: 4px;
+}
+
+.footer {
+    background: #e9ecef;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Question 2 Profile */
+#profile {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    padding: 18px;
+    max-width: 400px;
+    background: #ffffff;
+}
+
+#profile h3 {
+    margin-bottom: 8px;
+    color: #212529;
+}
+
+/* Question 3 Report */
+.report-box {
+    padding: 16px;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+.report-box h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.report-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}

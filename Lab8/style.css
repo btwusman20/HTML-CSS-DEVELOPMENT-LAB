@@ -1,0 +1,85 @@
+/* Lab 8 Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #1d3557;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.form-card {
+    background: #ffffff;
+    padding: 24px 28px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+}
+
+.form-card h2 {
+    color: #457b9d;
+    font-size: 17px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 8px;
+}
+
+.form-card h2 a {
+    color: #1d3557;
+    text-decoration: none;
+}
+
+.form-group {
+    margin-bottom: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-control {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 16px;
+    font-weight: normal;
+}
+
+.btn {
+    background: #1d3557;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #14213d;
+}

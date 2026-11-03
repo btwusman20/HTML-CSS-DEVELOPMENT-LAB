@@ -1,0 +1,45 @@
+/* Lab 11 Stylesheet */
+.pixel-box {
+    width: 200px;
+    height: 40px;
+    background: lightblue;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.percent-box {
+    width: 50%;
+    height: 40px;
+    background: lightgreen;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.rem-text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.demo-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.links-box {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.links-box a {
+    color: #1d3557;
+    font-weight: 600;
+}

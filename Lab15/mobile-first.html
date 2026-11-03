@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile First Cards</title>
+    <style>
+        .cards { display: flex; flex-direction: column; gap: 16px; }
+        .card { padding: 18px; border: 1px solid #777; }
+        @media (min-width: 600px) {
+            .cards { flex-direction: row; }
+            .card { flex: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <div class="card"><h2>First Card</h2><p>First card content.</p></div>
+        <div class="card"><h2>Second Card</h2><p>Second card content.</p></div>
+    </div>
+</body>
+</html>

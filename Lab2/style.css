@@ -1,0 +1,65 @@
+/* Lab 2 Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #2b2d42;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+    color: #1d3557;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #6c757d;
+    margin-bottom: 28px;
+    font-size: 15px;
+}
+
+.step-card {
+    background: #f8f9fa;
+    border-left: 4px solid #1d3557;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    border-radius: 0 6px 6px 0;
+}
+
+.step-card h3 {
+    color: #1d3557;
+    margin-bottom: 8px;
+}
+
+.step-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+pre {
+    background: #1e1e1e;
+    color: #4ec9b0;
+    padding: 12px 16px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Consolas', monospace;
+    font-size: 13.5px;
+}

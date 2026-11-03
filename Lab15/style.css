@@ -1,0 +1,107 @@
+/* Lab 15 Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f7f9fc;
+    color: #333;
+    font-size: 1rem;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+h1 {
+    color: #1d3557;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-bottom: 24px;
+}
+
+.demo-section {
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.demo-section h2 {
+    color: #457b9d;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.demo-section h2 a {
+    color: #1d3557;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* 1. Mobile First Cards */
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    padding: 18px;
+    border: 1px solid #777;
+    background: #f8fafc;
+    border-radius: 4px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #1d3557;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        flex-direction: row;
+    }
+    .card {
+        flex: 1;
+    }
+}
+
+/* 2. Responsive Image */
+.image-wrapper {
+    max-width: 400px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.image-wrapper img, img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 3. Responsive Typography */
+.adaptive-h1 {
+    font-size: 1.5rem;
+    color: #1d3557;
+    margin: 12px 0 8px 0;
+}
+
+@media (min-width: 600px) {
+    .adaptive-h1 {
+        font-size: 2.5rem;
+    }
+}

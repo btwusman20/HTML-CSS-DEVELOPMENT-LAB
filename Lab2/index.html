@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 - Pushing and Cloning a Repository</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pushing and Cloning a Repository</h1>
+        <p class="subtitle">HTML &amp; CSS Development Lab (BCS554)</p>
+        
+        <div class="step-card">
+            <h3>Step 1: Bare Remote Setup</h3>
+            <p>A bare repository holds the repository's history and branches without a working directory, making it safe for pushing from multiple clients.</p>
+            <pre><code>git init --bare ../html-remote
+git remote add origin ../html-remote
+git remote -v</code></pre>
+        </div>
+
+        <div class="step-card">
+            <h3>Step 2: Pushing to Origin</h3>
+            <p>Local commits are pushed to the remote repository on GitHub or the local bare origin.</p>
+            <pre><code>git push origin main</code></pre>
+        </div>
+
+        <div class="step-card">
+            <h3>Step 3: Cloning the Repository</h3>
+            <p>Cloning replicates the remote repository into a new workspace with all history preserved.</p>
+            <pre><code>cd ..
+git clone html-remote html-copy
+cd html-copy
+git log --oneline</code></pre>
+        </div>
+    </div>
+</body>
+</html>
